@@ -26,7 +26,6 @@ try:
     res = log(abs(12*sin(int(x))))
     browser.find_element(By.ID, 'answer').send_keys(str(res))
     browser.find_element(By.ID, "solve").click()
-    #-----------------------------------
 finally:
     time.sleep(30)
     browser.quit()
